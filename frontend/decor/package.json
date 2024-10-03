@@ -1,3 +1,7 @@
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 {
   "name": "decor",
   "version": "0.1.0",
